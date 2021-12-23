@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/turns"
+        android:title="Turnos"
+        android:icon="@drawable/ic_add_turn"
+        />
+    <item
+        android:id="@+id/turnsRequested"
+        android:title="Turnos pedidos"
+        android:icon="@drawable/ic_turns" />
+    <item
+        android:id="@+id/userSantioned"
+        android:title="Sancionados"
+        android:icon="@drawable/ic_user_sanction" />
+    <item
+        android:id="@+id/admin"
+        android:title="Perfil"
+        android:icon="@drawable/ic_user"
+        android:visible="true"/>
+
+</menu>

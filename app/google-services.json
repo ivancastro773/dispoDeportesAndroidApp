@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "230332568626",
+    "firebase_url": "https://dispo-deportes-sr.firebaseio.com",
+    "project_id": "dispo-deportes-sr",
+    "storage_bucket": "dispo-deportes-sr.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:230332568626:android:4e9a19561f4282fc56182b",
+        "android_client_info": {
+          "package_name": "com.example.dispo_deportessr"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "230332568626-45ci37soqe510l6g4rn8inr282j0v04j.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.dispo_deportessr",
+            "certificate_hash": "579a0831e6c679297bdc0e18944455d1fcc2fe38"
+          }
+        },
+        {
+          "client_id": "230332568626-qt5cbl3lp9t66o5t24egf1tq4vlt4kc9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD_Apn9Xo9CBml7KrdZC1f3YlG8zXvPSn0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "230332568626-qt5cbl3lp9t66o5t24egf1tq4vlt4kc9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

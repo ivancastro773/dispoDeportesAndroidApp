@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginActivity">
+    <!--<View
+        android:id="@+id/topView"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:background="@color/colorLoginAccent2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />-->
+    <View
+        android:id="@+id/view3"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:background="@color/colorLoginAccent2"/>
+    <View
+        android:id="@+id/view2"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:background="@drawable/wavetop"
+        android:layout_below="@+id/view3" />
+
+    <LinearLayout
+        android:id="@+id/imputs"
+        android:layout_width="match_parent"
+        android:layout_height="140sp"
+        android:orientation="vertical"
+        android:layout_below="@+id/view2">
+
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/imputLayoutEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:focusable="true"
+            app:endIconMode="custom"
+            android:focusableInTouchMode="true"
+            app:boxStrokeColor="@color/colorLoginAccent2"
+            app:hintTextColor="@color/colorLoginAccent2"
+            android:textColorHint="@color/colorLoginAccent2"
+            app:boxBackgroundColor="@android:color/white">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/editTextEmail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="@string/placeholder_email"
+                android:focusable="true"
+                android:inputType="textEmailAddress"
+                android:textSize="20sp" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/imputLayoutPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:textColorHint="@color/colorLoginAccent2"
+            app:boxBackgroundColor="@android:color/white"
+            app:boxStrokeColor="@color/colorLoginAccent2"
+            app:hintTextColor="@color/colorLoginAccent2"
+            app:passwordToggleEnabled="true">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/editTextPassword"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="@string/placeholder_password"
+                android:inputType="textPassword"
+                android:textSize="20sp" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+    </LinearLayout>
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/buttonLogin"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="15sp"
+        android:layout_below="@+id/imputs"
+        android:layout_centerInParent="true"
+        android:background="@drawable/button_rounded"
+        android:text="@string/log_in"
+        android:focusable="true"
+        android:textSize="18sp"/>
+
+
+    <TextView
+        android:id="@+id/textForgotPasword"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="24dp"
+        android:layout_below="@+id/buttonLogin"
+        android:layout_centerInParent="true"
+        android:gravity="center_horizontal"
+        android:onClick="forgotPassword"
+        android:text="@string/forgot_password"
+        android:textColor="@color/colorLoginAccent2"
+        android:textSize="24sp"
+        android:textStyle="bold"/>
+
+    <com.google.android.gms.common.SignInButton
+        android:id="@+id/googleSignInBtn"
+        android:layout_width="300dp"
+        android:layout_height="58dp"
+        android:layout_marginTop="8dp"
+        android:layout_below="@+id/textForgotPasword"
+        android:layout_centerInParent="true"/>
+
+
+    <View
+        android:id="@+id/view4"
+        android:layout_width="match_parent"
+        android:layout_height="90sp"
+        android:background="@color/colorLoginAccent2"
+        android:layout_alignParentBottom="true"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="84dp"
+        android:orientation="horizontal"
+        android:layout_alignParentBottom="true">
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/text_not_count"
+            android:textColor="#F5F3EEEE"
+            android:textSize="24sp"
+            android:gravity="center"
+            android:textStyle="italic" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/textViewRegister"
+            android:layout_width="185dp"
+            android:layout_height="56dp"
+            android:background="@drawable/button_rounded"
+            android:text="@string/text_register"
+            android:textSize="18sp" />
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/imageApp"
+        android:layout_width="250dp"
+        android:layout_height="120dp"
+        android:layout_centerHorizontal="true"
+        app:layout_constraintVertical_bias="0.0"
+        android:src="@drawable/logo"/>
+    <ProgressBar
+        android:id="@+id/progressBarLogin"
+        style="?android:attr/progressBarStyle"
+        android:layout_width="match_parent"
+        android:layout_height="130dp"
+        android:layout_centerHorizontal="true"/>
+
+</RelativeLayout>
+</layout>

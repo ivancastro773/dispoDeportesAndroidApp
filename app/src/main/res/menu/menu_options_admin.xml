@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/action_options"
+        android:orderInCategory="100"
+        android:title="options"
+        app:showAsAction="always"
+        android:icon="@drawable/ic_options" >
+
+        <menu>
+
+            <item
+                android:id="@+id/action_search"
+                android:orderInCategory="100"
+                android:title="Buscar"
+                app:showAsAction="always"
+                android:icon="@drawable/ic_search"/>
+            <item
+                android:id="@+id/action_block"
+                android:orderInCategory="100"
+                android:title="Bloquear Cancha"
+                app:showAsAction="always"
+                android:icon="@drawable/ic_block"/>
+
+        </menu>
+
+    </item>
+
+</menu>

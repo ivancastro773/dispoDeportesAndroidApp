@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    //colores nuevos app
+    <color name="primaryColor">#4fc3f7</color>
+    <color name="primaryLightColor">#8bf6ff</color>
+    <color name="primaryDarkColor1">#0093c4</color>
+    <color name="secondaryColor">#42a5f5</color>
+    <color name="secondaryLightColor">#80d6ff</color>
+    <color name="secondaryDarkColor">#0077c2</color>
+    <color name="primaryTextColor">#212121</color>
+    <color name="secondaryTextColor">#000000</color>
+
+    <color name="colorLoginPrimary">#fff353</color>
+    <color name="colorLoginPrimaryDark">#2D383F</color>
+    <color name="colorLoginAccent">#FF6C02</color>
+
+    <color name="colorLoginAccent2">#0099ff</color>
+    
+    <color name="color1">#005073</color>
+    <color name="color2">#107DAC</color>
+    <color name="ColorPrimaryDark">#0093c4</color>
+    <color name="ColorBackground">#EEEDEF</color>
+    <color name="ColorEdt">#000000</color>
+    <color name="ColorReg">#f5b716</color>
+    <color name="ColorProgressBar">#189AD3</color>
+    <color name="ColorConectionFail">#DAC720</color>
+</resources>
